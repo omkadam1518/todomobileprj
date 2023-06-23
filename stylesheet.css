@@ -1,0 +1,278 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+/* *{
+    margin-bottom: 30%;
+} */
+
+.navbar{
+    height: 50px;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.navbar{
+    font-weight: bolder;
+    padding: 15px 80px;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 15px rgba(78, 77, 77, 0.366);
+}
+
+.lists{
+    color: #00a2ff;
+}
+
+.circleplus{
+    float: right;
+    margin-right: 30px;
+}
+
+.plus1{
+    margin: auto;
+    position: absolute;
+    left: 160px;
+}
+
+.tasks{   
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-left: 1100px;
+    background-color: rgb(7, 140, 249);
+    border-radius: 50%; 
+}
+
+.plus{ 
+    padding: 10px 5px;
+    color: white;
+    margin: 0px 0px 0px 0px ;
+}
+
+.newtask{
+        color: black;
+        padding-left: 5px;
+        margin-left: 1000px;
+         margin-top: -20px; 
+        } 
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 180px;
+    gap: 20px;
+}
+
+.box{
+    width: 300px;
+    height: 250px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+
+input[type=checkbox]{
+    width: 10px;
+    height: 10px;
+}
+#text{
+    text-decoration: line-through;
+    color: gray;
+}
+
+h2{
+    color: rgb(0, 119, 255);
+    text-align: center;
+}
+
+.pchild{
+    margin: auto;
+    position: absolute;
+    left: 160px;
+}
+
+/* index2.html */
+
+.button{
+    background-color: rgb(0, 157, 255);
+    padding-left: 10px;
+    margin-left: 150px;
+}
+
+#close
+{
+    margin: -10px 30px;
+    padding-left: 30px;  
+}
+
+.maincontainer1{
+    background-image: url("./index.html");
+    filter: blur(2px);
+    height: 100%;
+    position: relative;
+}
+
+.new1{
+    width: 250px;
+    height: 170px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    border: 1px solid black; 
+    background-color: white;
+    border-radius: 10px;
+}
+
+.addTaskbtn {
+    float: right;
+    padding: 8px 30px;
+    background: skyblue;
+    color: white;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+/* index3.html */
+
+.newtask1{
+ margin-left: 700px;
+}
+
+.newtask2{
+    margin-left: 700px;
+    margin-top: -50px;
+
+}
+
+.container1{
+    margin-left: 500px;
+    
+}
+
+.arrow{
+    margin-left: 500px;
+    padding: 10px;
+}
+
+/* index4.html */
+
+.maincontainer2{
+    background-image: url("./index3.html");
+    filter: blur(2px);
+    height: 100%;
+}
+
+@media screen and (min-width:250px) and (max-width: 900px) {
+ 
+     .navbar{
+        padding: 10px 50px;
+     }
+
+    .newtask{
+        margin-left: 200px;
+    }
+ 
+    .new1{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 250px;
+      height: 180px;
+    }
+
+    .container{
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 400px;
+        height: 100vh;
+        position: absolute;
+        left: 80px;  
+    }
+  
+    .arrow{
+        margin-left: 50px;
+    }
+
+    .newtask2{
+        margin-left: 50px;
+    }
+
+    .container1{
+        margin-left: 50px;
+    }
+   /* index3.html */
+
+    .container3{
+        margin-left: 200px;
+    }
+}
+
+/* For iphone SE */
+
+@media screen and (min-width:250px) and (max-width: 375px) {
+ 
+    .navbar{
+       padding: 10px 50px;
+    }
+
+   .newtask{
+       margin-left: 10px;
+   }
+
+   .new1{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 250px;
+     height: 180px;
+   }
+   
+   .container{
+       margin-top: 100px;
+       margin-left: 0px;
+       width: 600px;
+       height: 100vh;
+       position: absolute;
+       left: 80px;
+       
+       
+   }
+     /* index3.html */
+}
+
+/* For iPad Mini */
+@media screen and (min-width:250px) and (max-width: 800px) {
+ 
+    .navbar{
+       padding: 10px 50px;
+    }
+
+   .newtask{
+       margin-left: 10px;
+   }
+
+   .new1{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 250px;
+     height: 180px;
+   }
+   
+   .container{
+       margin-top: 100px;
+       margin-left: 50px;
+       width: 600px;
+       height: 100vh;
+       position: absolute;
+       left: 80px;
+   }
+}
+
+
+
