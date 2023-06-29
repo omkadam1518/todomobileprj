@@ -212,14 +212,14 @@ h2{
 
 /* For iphone SE */
 
-@media screen and (min-width:250px) and (max-width: 375px) {
+@media screen and (min-width:250px) and (max-width: 800px) {
  
     .navbar{
        padding: 10px 50px;
     }
 
    .newtask{
-       margin-left: 10px;
+       margin-left: 120px;
    }
 
    .new1{
