@@ -171,7 +171,7 @@ h2{
      }
 
     .newtask{
-        margin-left: 200px;
+        margin-left: 100px;
     }
  
     .new1{
@@ -252,7 +252,8 @@ h2{
     }
 
    .newtask{
-       margin-left: 10px;
+       margin-left: 200px;
+       width: 100%;
    }
 
    .new1{
